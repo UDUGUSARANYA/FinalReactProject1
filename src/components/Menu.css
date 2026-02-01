@@ -1,0 +1,82 @@
+.menu{
+    padding:50px;
+    text-align:center;
+    background-color:#f8f8f8;
+}
+.menu h2{
+    font-family:'Brush Script MT',cursive; ;
+    font-size:48px;
+    margin-bottom:30px;;
+}
+.menu-categories{
+    display:flex;
+    justify-content:center;
+    margin-bottom: 30px;
+
+}
+.menu-categories button{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: black;
+
+}
+.menu-categories button.active{
+    border-bottom: 2px solid #ff6347;
+    color:#ffa500;
+    font-weight: bold;
+}
+.menu-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+.menu-card{
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px black;
+    color:#f8f8f8; 
+}
+.menu-card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.menu-card-content{
+    padding: 20px;
+}
+.menu-card h3{
+    font-size: 14px;
+    margin-bottom: 20px;
+
+}
+.menu-card p{
+    font-size: 14px;
+    color:#ffa500;
+    margin-bottom: 10px;
+}
+.Menu-card-price{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.order-button{
+    background-color: #ffa500;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    margin-top: auto; /* 🔥 THIS IS THE KEY */
+}
+
