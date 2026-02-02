@@ -6,7 +6,7 @@ const Burger2 = () => {
     return (
         <div className="burger-section">
             <div className="burger-content">
-                <img src="/images/about-img.png" alt="about-img.png" />
+               <img src={process.env.PUBLIC_URL + '/images/about-img.png'} alt="About Burger" />
                 <div className="burger-text">
                 <h2>About Our Burgers</h2>
                 <p>Our burgers are crafted with the finest ingredients,

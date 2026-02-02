@@ -4,24 +4,24 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 
 const menuItems = [
-    {category: 'Pizzas', Name:'Delicious Margherita Pizza', Price: 12.99, image: '/images/f1.png'},
-    {category: 'Burgers', Name:'Classic Cheeseburger', Price: 9.99, image: '/images/f2.png'},
-    {category: 'Pasta', Name:'Caesar Salad', Price: 7.99, image: '/images/f3.png'},
-    {category: 'Fries', Name:'Crispy French Fries', Price: 3.99, image: '/images/f4.png'},
-    {category: 'Pizzas', Name:'Refreshing Lemonade', Price: 2.99, image: '/images/f5.png'},
-    {category: 'Pizzas', Name:'Delicious Margherita Pizza', Price: 12.99, image: '/images/f6.png'},
-    {category: 'Burgers', Name:'Classic Cheeseburger', Price: 9.99, image: '/images/f7.png'},
-    {category: 'Pasta', Name:'Caesar Salad', Price: 7.99, image: '/images/f8.png'},
-    {category: 'Fries', Name:'Crispy French Fries', Price: 3.99, image: '/images/f9.png'},
-    {category: 'Pizzas', Name:'Delicious Margherita Pizza', Price: 12.99, image: '/images/f1.png'},
-    {category: 'Burgers', Name:'Classic Cheeseburger', Price: 9.99, image: '/images/f2.png'},
-    {category: 'Pasta', Name:'Caesar Salad', Price: 7.99, image: '/images/f3.png'},
-    {category: 'Fries', Name:'Crispy French Fries', Price: 3.99, image: '/images/f4.png'},
-    {category: 'Pizzas', Name:'Refreshing Lemonade', Price: 2.99, image: '/images/f5.png'},
-    {category: 'Pizzas', Name:'Delicious Margherita Pizza', Price: 12.99, image: '/images/f6.png'},
-    {category: 'Burgers', Name:'Classic Cheeseburger', Price: 9.99, image: '/images/f7.png'},
-    {category: 'Pasta', Name:'Caesar Salad', Price: 7.99, image: '/images/f8.png'},
-    {category: 'Fries', Name:'Crispy French Fries', Price: 3.99, image: '/images/f9.png'}
+    {category: 'Pizzas', Name:'Delicious Margherita Pizza', Price: 12.99, image: process.env.PUBLIC_URL + '/images/f1.png'},
+    {category: 'Burgers', Name:'Classic Cheeseburger', Price: 9.99, image: process.env.PUBLIC_URL + '/images/f2.png'},
+    {category: 'Pasta', Name:'Caesar Salad', Price: 7.99, image: process.env.PUBLIC_URL + '/images/f3.png'},
+    {category: 'Fries', Name:'Crispy French Fries', Price: 3.99, image: process.env.PUBLIC_URL + '/images/f4.png'},
+    {category: 'Pizzas', Name:'Refreshing Lemonade', Price: 2.99, image: process.env.PUBLIC_URL + '/images/f5.png'},
+    {category: 'Pizzas', Name:'Delicious Margherita Pizza', Price: 12.99, image: process.env.PUBLIC_URL + '/images/f6.png'},
+    {category: 'Burgers', Name:'Classic Cheeseburger', Price: 9.99, image: process.env.PUBLIC_URL + '/images/f7.png'},
+    {category: 'Pasta', Name:'Caesar Salad', Price: 7.99, image: process.env.PUBLIC_URL + '/images/f8.png'},
+    {category: 'Fries', Name:'Crispy French Fries', Price: 3.99, image: process.env.PUBLIC_URL + '/images/f9.png'},
+    {category: 'Pizzas', Name:'Delicious Margherita Pizza', Price: 12.99, image: process.env.PUBLIC_URL + '/images/f1.png'},
+    {category: 'Burgers', Name:'Classic Cheeseburger', Price: 9.99, image: process.env.PUBLIC_URL + '/images/f2.png'},
+    {category: 'Pasta', Name:'Caesar Salad', Price: 7.99, image: process.env.PUBLIC_URL + '/images/f3.png'},
+    {category: 'Fries', Name:'Crispy French Fries', Price: 3.99, image: process.env.PUBLIC_URL + '/images/f4.png'},
+    {category: 'Pizzas', Name:'Refreshing Lemonade', Price: 2.99, image: process.env.PUBLIC_URL + '/images/f5.png'},
+    {category: 'Pizzas', Name:'Delicious Margherita Pizza', Price: 12.99, image: process.env.PUBLIC_URL + '/images/f6.png'},
+    {category: 'Burgers', Name:'Classic Cheeseburger', Price: 9.99, image: process.env.PUBLIC_URL + '/images/f7.png'},
+    {category: 'Pasta', Name:'Caesar Salad', Price: 7.99, image: process.env.PUBLIC_URL + '/images/f8.png'},
+    {category: 'Fries', Name:'Crispy French Fries', Price: 3.99, image: process.env.PUBLIC_URL + '/images/f9.png'}
    
 ];
 const category=['All','Pizzas','Burgers','Pasta','Fries'];

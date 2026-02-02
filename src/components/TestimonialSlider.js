@@ -7,14 +7,14 @@ const testimonials = [
     name: "Moana Michell",
     text:
       "The food here is absolutely amazing! The flavors are so authentic and the ingredients taste fresh.",
-    image: "/images/client1.jpg",
+    image: process.env.PUBLIC_URL + '/images/client1.jpg',
     designation: "magna aliqua",
   },
   {
     name: "Mike Michell",
     text:
       "The food here is absolutely amazing! The flavors are so authentic and the ingredients taste fresh.",
-    image: "/images/client2.jpg",
+    image: process.env.PUBLIC_URL + '/images/client2.jpg',
     designation: "magna aliqua",
   },
 ];

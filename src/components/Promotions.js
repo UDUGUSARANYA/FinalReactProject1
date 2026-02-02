@@ -5,7 +5,9 @@ const Promotions = () => {
     return (
         <div className="promotions">
             <div className="promotion-card">
-                <img src="./images/f2.png" alt="Burger" />
+                <img src={process.env.PUBLIC_URL + '/images/f1.png'} alt="Promotion 1" />
+                
+
                 <div className="promotion-content">
                     <div className="promotion-title">Tasty Thursdays</div>
                     <div className="promotion-discount">20% off</div>
@@ -14,7 +16,7 @@ const Promotions = () => {
                 </div>
             </div>
           <div className="promotion-card">
-                <img src="./images/f6.png" alt="Pizza" />
+                <img src={process.env.PUBLIC_URL + '/images/f6.png'} alt="Promotion 2" />
                 <div className="promotion-content">
                     <div className="promotion-title">Pizza Daya</div>
                     <div className="promotion-discount">15% off</div>
