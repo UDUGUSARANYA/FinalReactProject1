@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ReactProject/static/css/main.4f09c6b6.css",
-    "main.js": "/ReactProject/static/js/main.8a113ebf.js",
-    "static/js/453.3a1abe00.chunk.js": "/ReactProject/static/js/453.3a1abe00.chunk.js",
-    "static/media/hero-bg.jpg": "/ReactProject/static/media/hero-bg.ac596bd69d11364d39b2.jpg",
-    "index.html": "/ReactProject/index.html",
-    "main.4f09c6b6.css.map": "/ReactProject/static/css/main.4f09c6b6.css.map",
-    "main.8a113ebf.js.map": "/ReactProject/static/js/main.8a113ebf.js.map",
-    "453.3a1abe00.chunk.js.map": "/ReactProject/static/js/453.3a1abe00.chunk.js.map"
+    "main.css": "/FinalReactProject/static/css/main.d4eaab78.css",
+    "main.js": "/FinalReactProject/static/js/main.df4e052d.js",
+    "static/js/453.3a1abe00.chunk.js": "/FinalReactProject/static/js/453.3a1abe00.chunk.js",
+    "static/media/hero-bg.jpg": "/FinalReactProject/static/media/hero-bg.ac596bd69d11364d39b2.jpg",
+    "index.html": "/FinalReactProject/index.html",
+    "main.d4eaab78.css.map": "/FinalReactProject/static/css/main.d4eaab78.css.map",
+    "main.df4e052d.js.map": "/FinalReactProject/static/js/main.df4e052d.js.map",
+    "453.3a1abe00.chunk.js.map": "/FinalReactProject/static/js/453.3a1abe00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f09c6b6.css",
-    "static/js/main.8a113ebf.js"
+    "static/css/main.d4eaab78.css",
+    "static/js/main.df4e052d.js"
   ]
 }
