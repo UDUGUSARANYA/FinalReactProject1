@@ -50,25 +50,26 @@ const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   return (
-    <nav className='Navbar'>
-      <h1 className='navbar-logo'>Feane</h1>
+    <nav className="Navbar">
+      <h1 className="navbar-logo">Feane</h1>
 
       <div className={isMobile ? 'nav-links-mobile' : 'nav-links'}>
-        <a href='home'>Home</a>
-        <a href='about'>About</a>
-        <a href='menu'>Menu</a>
-        <a href='book-table'>Book Table</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#book-table">Book Table</a>
 
-        <FaUser className='nav-icon' />
-        <FaShoppingCart className='nav-icon' />
-        <FaSearch className='nav-icon' />
+        <FaUser className="nav-icon" aria-label="User Account" />
+        <FaShoppingCart className="nav-icon" aria-label="Shopping Cart" />
+        <FaSearch className="nav-icon" aria-label="Search" />
 
-        <button className='orders-button'>Order Online</button>
+        <button className="orders-button">Order Online</button>
       </div>
 
       <div
-        className='mobile-menu-icon'
+        className="mobile-menu-icon"
         onClick={() => setIsMobile(!isMobile)}
+        aria-label="Toggle Mobile Menu"
       >
         {isMobile ? <FaTimes /> : <FaBars />}
       </div>
